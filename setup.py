@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
 
     name = 'fpastebin',
-    version = '0.0.1,',
+    version = '1.0.0',
     description='A tool to upload text to http://paste.fedoraproject.org/',
     url = 'http://github.com/surajssd/fpastebin',
     author = 'Suraj Deshmukh',
@@ -12,5 +12,6 @@ setup(
     license = 'MIT',
 
     packages = ['fpastebin'],
-    install_requires = ['requests']
+    install_requires = ['requests'],
+    scripts=['fpastebin/fpastebin.py']
 )
